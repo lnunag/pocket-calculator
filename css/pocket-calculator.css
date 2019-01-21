@@ -29,6 +29,11 @@ color: black;
   color: black;
 }
 
+.equals {
+  background: #FD5E53;
+  color: black;
+}
+
 #zero {
   height: 150px;
   width: 300px;

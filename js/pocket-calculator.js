@@ -22,7 +22,6 @@ function zero() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function one() {
   if (state == 1) {
     string = "1"
@@ -40,7 +39,6 @@ function one() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function two() {
   if (state == 1) {
     string = "2"
@@ -58,7 +56,6 @@ function two() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function three() {
   if (state == 1) {
     string = "3"
@@ -76,7 +73,6 @@ function three() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function four() {
   if (state == 1) {
     string = "4"
@@ -94,7 +90,6 @@ function four() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function five() {
   if (state == 1) {
     string = "5"
@@ -112,7 +107,6 @@ function five() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function six() {
   if (state == 1) {
     string = "6"
@@ -130,7 +124,6 @@ function six() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function seven() {
   if (state == 1) {
     string = "7"
@@ -148,7 +141,6 @@ function seven() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function eight() {
   if (state == 1) {
     string = "8"
@@ -166,7 +158,6 @@ function eight() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function nine() {
   if (state == 1) {
     string = "9"
@@ -184,7 +175,6 @@ function nine() {
   var div = document.getElementById("output");
   div.innerHTML = string;
 }
-
 function ac() {
   var div = document.getElementById("output");
   div.innerHTML = 0;
@@ -198,7 +188,6 @@ function ac() {
     document.getElementById("deciButton").disabled = false;
   }
 }
-
 function multiply() {
   var div = document.getElementById("output");
   saved = string;
@@ -210,7 +199,6 @@ function multiply() {
     document.getElementById("deciButton").disabled = false;
   }
 }
-
 function add() {
   var div = document.getElementById("output");
   saved = string;
@@ -222,7 +210,6 @@ function add() {
     document.getElementById("deciButton").disabled = false;
   }
 }
-
 function divide() {
   var div = document.getElementById("output");
   saved = string;
@@ -234,7 +221,6 @@ function divide() {
     document.getElementById("deciButton").disabled = false;
   }
 }
-
 function subtract() {
   var div = document.getElementById("output");
   saved = string;
@@ -246,7 +232,6 @@ function subtract() {
     document.getElementById("deciButton").disabled = false;
   }
 }
-
 function equals() {
   var div= document.getElementById("output");
   string = eval(string);
@@ -256,14 +241,12 @@ function equals() {
   }
   state = 1;
 }
-
 function negative() {
   var div= document.getElementById("output");
   string = Number(string) * (-1);
   div.innerHTML = string;
   state = 0;
 }
-
 function decimal() {
   if (decimalUsed == false){
     var div = document.getElementById("output");
@@ -276,7 +259,6 @@ function decimal() {
     document.getElementById("deciButton").disabled = true;
   }
 }
-
 function percent() {
   var div = document.getElementById("output");
   string = Number(string) * (0.01)
