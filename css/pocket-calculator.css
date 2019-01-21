@@ -1,0 +1,44 @@
+button {
+height: 150px;
+width: 150px;
+font-size: 50px;
+color: black;
+background: #D4D4D2;
+border-radius: 50%;
+border: 2px solid black;
+text-align: center;
+}
+
+.output {
+display: block;
+height: 120px;
+width: 47%;
+border-radius: 80px / 80px;
+border: 2px solid black;
+font-size: 60px;
+color: black;
+}
+
+.right {
+  background: #9BCD9B;
+  color: black;
+}
+
+.top {
+  background: #99CDC9;
+  color: black;
+}
+
+#zero {
+  height: 150px;
+  width: 300px;
+  border-radius: 80px / 80px;
+  border: 2px solid black;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
